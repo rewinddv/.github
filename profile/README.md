@@ -2,6 +2,11 @@
 
 Native FireWire DV/HDV preservation and archival capture for modern macOS.
 
+> **Help fund the standards behind tape metadata.** Funds raised go toward
+> purchasing IEC standards to research all the metadata these tapes can contain
+> and expand what rewindDV can decode.
+> [**Support on Ko-fi →**](https://ko-fi.com/rewinddv)
+
 - [Canonical open-source repository](https://github.com/rewinddv/rewindDV)
 - [Testing and release hub](https://github.com/rewinddv/rewindDV-LAB)
 - [Project website](https://rewinddv.com)
