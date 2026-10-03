@@ -2,15 +2,30 @@
 
 Native FireWire DV/HDV preservation and archival capture for modern macOS.
 
+[rewinddv/rewindDV](https://github.com/rewinddv/rewindDV) is the canonical project:
+application and driver source, engineering releases, documentation, issues and
+contributions all live together.
+
+- [Engineering releases](https://github.com/rewinddv/rewindDV/releases)
+- [Installation and security requirements](https://github.com/rewinddv/rewindDV/blob/main/INSTALL.md)
+- [Compatibility and limitations](https://github.com/rewinddv/rewindDV/blob/main/COMPATIBILITY.md)
+- [Report a bug or compatibility result](https://github.com/rewinddv/rewindDV/issues)
+- [Build and contribute](https://github.com/rewinddv/rewindDV/blob/main/CONTRIBUTING.md)
+- [Project website](https://rewinddv.com)
+
+Current engineering binaries are ad-hoc signed and not notarized. Installation
+requires disabling SIP, which reduces macOS security. They are intended for
+experienced users and dedicated test systems. Read the release instructions and
+bounded hardware-qualification limits; offline tests do not establish broader
+compatibility or production readiness.
+
 > **Help fund the standards behind tape metadata.** Funds raised go toward
 > purchasing IEC standards to research all the metadata these tapes can contain
 > and expand what rewindDV can decode.
 > [**Support on Ko-fi →**](https://ko-fi.com/rewinddv)
 
-- [Canonical open-source repository](https://github.com/rewinddv/rewindDV)
-- [Testing and release hub](https://github.com/rewinddv/rewindDV-LAB)
-- [Project website](https://rewinddv.com)
-
-An interim [Alpha 0.0.81 / Driver Build183 engineering alpha](https://github.com/rewinddv/rewindDV-LAB/releases/tag/alpha-0.0.81) is available. It is ad-hoc signed and not notarized. Installation requires disabling SIP, which reduces macOS security. Intended for experienced users and dedicated/test systems; read the linked release instructions and limitations.
+Public issues are for sanitized summaries. Keep support ZIPs, raw logs, device
+identifiers, personal paths and private footage out of public reports; request a
+private transfer channel first.
 
 Project contact: [info@rewinddv.com](mailto:info@rewinddv.com).
