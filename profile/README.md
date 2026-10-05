@@ -6,6 +6,12 @@ Native FireWire DV/HDV preservation and archival capture for modern macOS.
 application and driver source, engineering releases, documentation, issues and
 contributions all live together.
 
+[Current development and latest public download](https://github.com/rewinddv/rewindDV#readme)
+are separate lifecycle states. The
+[canonical project status](https://github.com/rewinddv/rewindDV/blob/main/PROJECT-STATUS.json)
+records their independent application versions, driver builds and qualification
+limits. A source update does not imply a new downloadable binary.
+
 - [Engineering releases](https://github.com/rewinddv/rewindDV/releases)
 - [Installation and security requirements](https://github.com/rewinddv/rewindDV/blob/main/INSTALL.md)
 - [Compatibility and limitations](https://github.com/rewinddv/rewindDV/blob/main/COMPATIBILITY.md)
