@@ -6,6 +6,12 @@ Native FireWire DV/HDV preservation and archival capture for modern macOS.
 application and driver source, engineering releases, documentation, issues and
 contributions all live together.
 
+**Current development: Alpha 0.0.89 / Driver B190 (app188).**
+Bounded NTSC DV capture, normal capture STOP and session re-entry have current
+development evidence. Live extension unload/hot replacement remains unqualified;
+use the documented shutdown/restart maintenance path. Exact public-package
+installation and broader hardware qualification remain separate.
+
 [Current development and latest public download](https://github.com/rewinddv/rewindDV#readme)
 are separate lifecycle states. The
 [canonical project status](https://github.com/rewinddv/rewindDV/blob/main/PROJECT-STATUS.json)
