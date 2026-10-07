@@ -6,9 +6,12 @@ Native FireWire DV/HDV preservation and archival capture for modern macOS.
 application and driver source, engineering releases, documentation, issues and
 contributions all live together.
 
-**Current development: Alpha 0.0.89 / Driver B190 (app188).**
-Bounded NTSC DV capture, normal capture STOP and session re-entry have current
-development evidence. Live extension unload/hot replacement remains unqualified;
+**Current development: Alpha 0.0.93 / Driver B190 (app188).**
+Frame-local saved-DV opening, latest-request scrubbing, lossless Surgery and
+66 local CLI/MCP tools are available in the current source. External sandbox
+paths need session-scoped GUI grants; mixed-format seek inspector association
+remains unresolved. Earlier Alpha 0.0.89 / B190 bounded NTSC capture, normal
+capture STOP and session re-entry evidence remains separately scoped. Live extension unload/hot replacement remains unqualified;
 use the documented shutdown/restart maintenance path. Exact public-package
 installation and broader hardware qualification remain separate.
 
