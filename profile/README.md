@@ -18,19 +18,25 @@ records their independent application versions, driver builds and qualification
 limits. A source update does not imply a new downloadable binary.
 
 - [Engineering releases](https://github.com/rewinddv/rewindDV/releases)
-- [Installation and security requirements](https://github.com/rewinddv/rewindDV/blob/main/INSTALL.md)
+- [Offline download instructions](https://github.com/rewinddv/rewindDV/blob/alpha-0.0.94/Foundation/OFFLINE-DISTRIBUTION.md)
 - [Compatibility and limitations](https://github.com/rewinddv/rewindDV/blob/main/COMPATIBILITY.md)
 - [Report a bug or compatibility result](https://github.com/rewinddv/rewindDV/issues)
 - [Build and contribute](https://github.com/rewinddv/rewindDV/blob/main/CONTRIBUTING.md)
 - [Project website](https://rewinddv.com)
 
-Current engineering binaries are ad-hoc signed and not notarized. Offline
-playback, inspection and supported archive operations do not require DriverKit
-activation. Activating an included ad-hoc DriverKit extension may require
-disabling SIP, which reduces macOS security; normal SIP-on driver installation
-is not qualified for these packages. Read the exact release instructions and
-hardware-qualification limits. Offline tests do not establish physical capture
-compatibility or production readiness.
+The current engineering download is **offline-only**. It contains rewindDV
+Offline and its CLI, with no DriverKit extension, driver activation, deck control
+or physical capture. Offline playback, inspection and supported archive
+operations require no SIP change. The app and CLI are ad-hoc signed, not with an
+Apple Developer ID, and are not notarized. Keep your existing capture app;
+rewindDV Offline can run alongside it.
+
+The complete development source retains native FireWire acquisition and the
+DriverKit implementation. Hardware-enabled builds and earlier downloads have
+separate installation and security requirements. Read the exact release
+instructions and canonical qualification limits. Complete signed-app workflows,
+HDV playback and broader hardware qualification remain unqualified. Offline
+tests do not establish physical capture compatibility or production readiness.
 
 > **Help fund the standards behind tape metadata.** Funds raised go toward
 > purchasing IEC standards to research all the metadata these tapes can contain
