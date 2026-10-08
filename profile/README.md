@@ -6,14 +6,10 @@ Native FireWire DV/HDV preservation and archival capture for modern macOS.
 application and driver source, engineering releases, documentation, issues and
 contributions all live together.
 
-**Current development: Alpha 0.0.93 / Driver B190 (app188).**
-Frame-local saved-DV opening, latest-request scrubbing, lossless Surgery and
-66 local CLI/MCP tools are available in the current source. External sandbox
-paths need session-scoped GUI grants; mixed-format seek inspector association
-remains unresolved. Earlier Alpha 0.0.89 / B190 bounded NTSC capture, normal
-capture STOP and session re-entry evidence remains separately scoped. Live extension unload/hot replacement remains unqualified;
-use the documented shutdown/restart maintenance path. Exact public-package
-installation and broader hardware qualification remain separate.
+Current source includes saved-DV review, raw metadata inspection, epoch-aware
+mixed-format archival support, lossless segmented exports and local CLI/MCP
+interfaces. Consult the canonical project status for current development
+versions and the measured scope of automated and hardware qualification.
 
 [Current development and latest public download](https://github.com/rewinddv/rewindDV#readme)
 are separate lifecycle states. The
@@ -28,10 +24,12 @@ limits. A source update does not imply a new downloadable binary.
 - [Build and contribute](https://github.com/rewinddv/rewindDV/blob/main/CONTRIBUTING.md)
 - [Project website](https://rewinddv.com)
 
-Current engineering binaries are ad-hoc signed and not notarized. Installation
-requires disabling SIP, which reduces macOS security. They are intended for
-experienced users and dedicated test systems. Read the release instructions and
-bounded hardware-qualification limits; offline tests do not establish broader
+Current engineering binaries are ad-hoc signed and not notarized. Offline
+playback, inspection and supported archive operations do not require DriverKit
+activation. Activating an included ad-hoc DriverKit extension may require
+disabling SIP, which reduces macOS security; normal SIP-on driver installation
+is not qualified for these packages. Read the exact release instructions and
+hardware-qualification limits. Offline tests do not establish physical capture
 compatibility or production readiness.
 
 > **Help fund the standards behind tape metadata.** Funds raised go toward
