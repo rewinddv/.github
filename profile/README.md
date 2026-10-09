@@ -18,25 +18,23 @@ records their independent application versions, driver builds and qualification
 limits. A source update does not imply a new downloadable binary.
 
 - [Engineering releases](https://github.com/rewinddv/rewindDV/releases)
-- [Offline download instructions](https://github.com/rewinddv/rewindDV/blob/alpha-0.0.94/Foundation/OFFLINE-DISTRIBUTION.md)
+- [Installation instructions](https://github.com/rewinddv/rewindDV/blob/alpha-0.0.96/INSTALL.md)
 - [Compatibility and limitations](https://github.com/rewinddv/rewindDV/blob/main/COMPATIBILITY.md)
 - [Report a bug or compatibility result](https://github.com/rewinddv/rewindDV/issues)
 - [Build and contribute](https://github.com/rewinddv/rewindDV/blob/main/CONTRIBUTING.md)
 - [Project website](https://rewinddv.com)
 
-The current engineering download is **offline-only**. It contains rewindDV
-Offline and its CLI, with no DriverKit extension, driver activation, deck control
-or physical capture. Offline playback, inspection and supported archive
-operations require no SIP change. The app and CLI are ad-hoc signed, not with an
-Apple Developer ID, and are not notarized. Keep your existing capture app;
-rewindDV Offline can run alongside it.
+The current engineering download contains the full Apple silicon app, its
+matching DriverKit extension, and the normal CLI/MCP client. It is Developer ID
+signed and notarized. Follow normal macOS approval; no SIP change is required.
+Offline playback and archive operations need no driver activation. The earlier
+Alpha 0.0.94 offline-only release remains available unchanged in release history.
 
-The complete development source retains native FireWire acquisition and the
-DriverKit implementation. Hardware-enabled builds and earlier downloads have
-separate installation and security requirements. Read the exact release
-instructions and canonical qualification limits. Complete signed-app workflows,
-HDV playback and broader hardware qualification remain unqualified. Offline
-tests do not establish physical capture compatibility or production readiness.
+Signing and the approved controller entitlement do not establish broad hardware
+compatibility. Earlier bounded M1 SIP-on observations used different builds;
+physical live-preview retesting, PAL/HDV capture, broader deck support and
+full-tape endurance remain unqualified. Read the canonical status and exact
+release limitations before hardware use.
 
 > **Help fund the standards behind tape metadata.** Funds raised go toward
 > purchasing IEC standards to research all the metadata these tapes can contain
