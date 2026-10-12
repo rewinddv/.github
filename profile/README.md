@@ -1,6 +1,7 @@
 # rewindDV
 
-Native FireWire DV/HDV preservation and archival capture for modern macOS.
+Native FireWire DV preservation and archival capture for Apple silicon.
+Requires macOS 26 Tahoe or macOS 27 Golden Gate; will not run on older macOS versions or Intel Macs. Later macOS releases are not currently supported.
 
 [rewinddv/rewindDV](https://github.com/rewinddv/rewindDV) is the canonical project:
 application and driver source, engineering releases, documentation, issues and
