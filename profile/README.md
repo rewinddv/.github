@@ -35,9 +35,11 @@ Alpha 0.0.94 offline-only release remains available unchanged in release history
 Signing and the approved controller entitlement do not establish broad hardware
 compatibility. Earlier bounded M1 SIP-on observations used different builds;
 successful historical PAL captures and a completed whole-tape NTSC workflow
-remain scoped to their tested earlier builds. The newest retained Driver203 has
-no fresh physical capture/endurance qualification. HDV capture, broader deck
-support and live unload remain unqualified. Read the canonical status and exact
+remain scoped to their tested earlier builds. The exact App213/Driver204 binaries in Beta 0.1.23 have bounded Sony STOP,
+capture-reentry and saved-playback evidence. Receive recoveries, CIP
+discontinuities, incomplete frames and unexplained startup delay remain recorded;
+complete capture continuity, endurance, HDV, broader hardware support and live
+unload remain unqualified. Read the canonical status and exact
 release limitations before hardware use.
 
 > **Help fund the standards behind tape metadata.** Funds raised go toward
