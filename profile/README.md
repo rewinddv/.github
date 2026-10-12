@@ -6,7 +6,8 @@ Native FireWire DV/HDV preservation and archival capture for modern macOS.
 application and driver source, engineering releases, documentation, issues and
 contributions all live together.
 
-Current source includes saved-DV review, raw metadata inspection, epoch-aware
+Current source includes human-readable recorded camera metadata, searchable
+inspectors, saved-DV review, raw metadata inspection, epoch-aware
 mixed-format archival support, lossless segmented exports and local CLI/MCP
 interfaces. Consult the canonical project status for current development
 versions and the measured scope of automated and hardware qualification.
@@ -18,7 +19,7 @@ records their independent application versions, driver builds and qualification
 limits. A source update does not imply a new downloadable binary.
 
 - [Engineering releases](https://github.com/rewinddv/rewindDV/releases)
-- [Installation instructions](https://github.com/rewinddv/rewindDV/blob/alpha-0.0.96/INSTALL.md)
+- [Installation instructions](https://github.com/rewinddv/rewindDV/blob/main/INSTALL.md)
 - [Compatibility and limitations](https://github.com/rewinddv/rewindDV/blob/main/COMPATIBILITY.md)
 - [Report a bug or compatibility result](https://github.com/rewinddv/rewindDV/issues)
 - [Build and contribute](https://github.com/rewinddv/rewindDV/blob/main/CONTRIBUTING.md)
@@ -32,8 +33,10 @@ Alpha 0.0.94 offline-only release remains available unchanged in release history
 
 Signing and the approved controller entitlement do not establish broad hardware
 compatibility. Earlier bounded M1 SIP-on observations used different builds;
-physical live-preview retesting, PAL/HDV capture, broader deck support and
-full-tape endurance remain unqualified. Read the canonical status and exact
+successful historical PAL captures and a completed whole-tape NTSC workflow
+remain scoped to their tested earlier builds. The newest retained Driver203 has
+no fresh physical capture/endurance qualification. HDV capture, broader deck
+support and live unload remain unqualified. Read the canonical status and exact
 release limitations before hardware use.
 
 > **Help fund the standards behind tape metadata.** Funds raised go toward
